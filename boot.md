@@ -42,12 +42,18 @@ Welcome back! Read this file at the start of every Claude Desktop brainstorming 
 ## Agreed Technical Decisions
 
 ### Hardware Stack
-- **Microcontroller:** ESP32 (WiFi built-in for future wireless; USB serial for wired prototype)
+- **Microcontroller:** DFRobot FireBeetle 2 ESP32-E (USB-C, pre-soldered headers, compact 25.4×60mm)
 - **Servo driver:** PCA9685 I2C board (16 channels, clean wiring)
-- **Servos:** SG90 / MG90S class micro servos
+- **Servos:** MG90S mini servo (metal gears — upgrade from SG90)
 - **Power (prototype):** USB-C power bank at 5V (separate servo + logic rails)
-- **Estimated Stage 1 parts cost:** ~€15–20 (ESP32 + PCA9685 + 2× SG90)
+- **Stage 1 actual parts cost:** €38.00 incl. VAT + shipping (see `expenses.md`)
 - **Connection:** Wired prototype via hollow left foot cable conduit; bolt/nut mount on right foot
+
+### Key Hardware Notes
+- FireBeetle I2C: SDA=GPIO21, SCL=GPIO22 (ESP32 defaults — matches Stage 1 brief)
+- FireBeetle uses **USB-C** for programming and power
+- MG90S plugs directly into PCA9685 servo headers (standard 3-pin connector)
+- PCA9685 I2C address: 0x40 (default)
 
 ### Physical Construction
 - **Primary structure:** FDM 3D printed (PLA or PETG)
@@ -66,7 +72,7 @@ Welcome back! Read this file at the start of every Claude Desktop brainstorming 
 ---
 
 ## Prototype Order (agreed)
-1. **Stage 1 — Electronics chain:** ESP32 + PCA9685 + 1× SG90 servo sweeping. First Claude Code task.
+1. **Stage 1 — Electronics chain:** ESP32 + PCA9685 + 1× MG90S servo sweeping. First Claude Code task. ⏳ Hardware ordered.
 2. **Stage 2 — Mouth mechanism:** Minimal jaw test rig. One servo, hinged jaw, linkage.
 3. **Stage 3 — Single head axis:** Pan servo mounted and moving. Understand torque and range.
 4. **Stage 4 — Waist joint:** Simplest joint. Add after head axis is understood.
@@ -127,15 +133,17 @@ All session summaries and Claude Code briefs are logged as GitHub Issues.
 |-----------|--------|
 | Repository setup | ✅ Complete |
 | Virtual team created | ✅ Complete |
-| Hardware stack decided | ✅ Complete (ESP32 + PCA9685) |
+| Hardware stack decided | ✅ Complete (FireBeetle ESP32-E + PCA9685 + MG90S) |
+| Stage 1 hardware purchased | ✅ Ordered from TinyTronics — €38.00 |
+| Expense tracking | ✅ Active — see `expenses.md` |
 | Mechanical concept | ✅ Agreed in principle |
 | Prototype order defined | ✅ Complete (5 stages) |
+| Stage 1 firmware | ⏳ Awaiting hardware delivery |
 | CAD / printable parts | 🔲 Not started |
-| Firmware (servo control) | 🔲 Not started |
 | Lip-sync tool | 🔲 Not started |
 | Timeline tool | 🔲 Not started |
 | Controller PWA | 🔲 Not started |
 
 ---
 
-*Last updated: Session 1 — Netherlands context added, prototype order defined*
+*Last updated: Session 2 — Stage 1 hardware purchased, FireBeetle ESP32-E confirmed, MG90S selected, expense tracking started*
