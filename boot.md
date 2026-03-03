@@ -15,6 +15,18 @@ Welcome back! Read this file at the start of every Claude Desktop brainstorming 
 
 ---
 
+## Owner Context
+- **Location:** Netherlands 🇳🇱
+- **Currency:** € (Euro)
+- **Measurements:** Metric (mm, cm, g, kg)
+- **Fasteners:** Metric (M2, M3, M4 etc.)
+- **Power standard:** 230V mains / EU plugs
+- **Preferred suppliers:** Tinytronics (NL), Kiwi Electronics (NL), Reichelt (DE), Conrad (NL), AliExpress EU warehouses
+- **Experience level:** Beginner (electronics, mechatronics, programming)
+- **Fabrication:** FDM 3D printing (primary), foam + fleece (soft surfaces)
+
+---
+
 ## Movement Specification
 | Joint | Axes | Servo Count |
 |-------|------|------------|
@@ -34,6 +46,7 @@ Welcome back! Read this file at the start of every Claude Desktop brainstorming 
 - **Servo driver:** PCA9685 I2C board (16 channels, clean wiring)
 - **Servos:** SG90 / MG90S class micro servos
 - **Power (prototype):** USB-C power bank at 5V (separate servo + logic rails)
+- **Estimated Stage 1 parts cost:** ~€15–20 (ESP32 + PCA9685 + 2× SG90)
 - **Connection:** Wired prototype via hollow left foot cable conduit; bolt/nut mount on right foot
 
 ### Physical Construction
@@ -49,6 +62,15 @@ Welcome back! Read this file at the start of every Claude Desktop brainstorming 
 - **Timeline tool:** Desktop app (platform TBD in brainstorm) for authoring sequences
 - **Controller app:** Progressive Web App (PWA) using WebSockets, low-latency
 - **Sync data format:** JSON keyframe format (to be defined in session)
+
+---
+
+## Prototype Order (agreed)
+1. **Stage 1 — Electronics chain:** ESP32 + PCA9685 + 1× SG90 servo sweeping. First Claude Code task.
+2. **Stage 2 — Mouth mechanism:** Minimal jaw test rig. One servo, hinged jaw, linkage.
+3. **Stage 3 — Single head axis:** Pan servo mounted and moving. Understand torque and range.
+4. **Stage 4 — Waist joint:** Simplest joint. Add after head axis is understood.
+5. **Stage 5 — Full integration:** All 5 servos running simultaneously.
 
 ---
 
@@ -107,6 +129,7 @@ All session summaries and Claude Code briefs are logged as GitHub Issues.
 | Virtual team created | ✅ Complete |
 | Hardware stack decided | ✅ Complete (ESP32 + PCA9685) |
 | Mechanical concept | ✅ Agreed in principle |
+| Prototype order defined | ✅ Complete (5 stages) |
 | CAD / printable parts | 🔲 Not started |
 | Firmware (servo control) | 🔲 Not started |
 | Lip-sync tool | 🔲 Not started |
@@ -115,4 +138,4 @@ All session summaries and Claude Code briefs are logged as GitHub Issues.
 
 ---
 
-*Last updated: Session 1 — Project setup and initial hardware decisions*
+*Last updated: Session 1 — Netherlands context added, prototype order defined*
