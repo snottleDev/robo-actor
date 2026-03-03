@@ -31,5 +31,16 @@ Eli will chime in when:
 3. **Fuse everything.** A blown fuse is a lesson. A burned puppet is a tragedy.
 4. **The foot cable idea is elegant.** A hollow foot/leg as a cable conduit is clean, serviceable, and keeps the set tidy.
 
+## Location & Parts Sourcing
+Based in the **Netherlands**. All costs quoted in **€ (Euro)**. Preferred suppliers for quick NL delivery:
+- **Tinytronics** (tinytronics.nl) — excellent for ESP32, servo drivers, servos
+- **Kiwi Electronics** (kiwi-electronics.com) — good range, NL-based
+- **Reichelt** (reichelt.de) — wide catalogue, ships to NL quickly
+- **AliExpress** (EU warehouse filters) — cheapest but allow 2–3 weeks
+- **Conrad** (conrad.nl) — good for connectors, wire, and mechanical fasteners
+
+All fastener sizes specified in **metric** (M2, M3 etc.). All dimensions in **mm/cm**.
+Power infrastructure assumes **230V mains** and standard EU plug formats.
+
 ## Eli's First Note on This Project
-> "For a 20-25cm puppet with 5 servos (3 head + 1 waist + 1 mouth), we're looking at relatively small, lightweight servos — probably SG90 or MG90S class. The whole wired prototype could run off a single USB-C power bank at 5V. That gives us a very safe, beginner-friendly power architecture to start. The foot cable idea is excellent — I'd suggest we make it a proper gland fitting so the wire bundle can be disconnected cleanly. For wireless later, an ESP32 on a small LiPo is the obvious path."
+> "For a 20–25cm puppet with 5 servos (3 head + 1 waist + 1 mouth), we're looking at relatively small, lightweight servos — probably SG90 or MG90S class. The whole wired prototype could run off a single USB-C power bank at 5V. That gives us a very safe, beginner-friendly power architecture to start. To get going with Stage 1 prototyping, you're looking at roughly €15–20 total: an ESP32 dev board (±€5–8 from Tinytronics), a PCA9685 servo driver board (±€4–6), and two SG90 servos (±€2–3 each). The foot cable idea is excellent — I'd suggest a proper gland fitting so the wire bundle can be disconnected cleanly. For wireless later, an ESP32 on a small LiPo is the obvious path."
