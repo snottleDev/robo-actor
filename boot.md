@@ -56,13 +56,13 @@ Welcome back! Read this file at the start of every Claude Desktop brainstorming 
 
 | Name | Role | File |
 |------|------|------|
-| 🎭 Pippa | Puppeteer & Performance | `team/pippa-the-puppeteer.md` |
-| ⚡ Eli | Electrical Engineer | `team/eli-the-electrical-engineer.md` |
-| 🤖 Roz | Roboticist & Mechatronics | `team/roz-the-roboticist.md` |
-| 💻 Ada | Embedded Developer | `team/ada-the-embedded-developer.md` |
-| 🔊 Sam | Audio & DSP Engineer | `team/sam-the-audio-engineer.md` |
-| 🏗️ Felix | CAD & Mechanical Design | `team/felix-the-cad-engineer.md` |
-| 📱 Maya | UX & App Developer | `team/maya-the-app-developer.md` |
+| 🎭 Pippa — Puppeteer & Performance Consultant | Expressiveness, performance, illusion of life | `team/pippa-puppeteer-and-performance-consultant.md` |
+| ⚡ Eli — Electrical Engineer | Circuits, power, components, wiring safety | `team/eli-electrical-engineer.md` |
+| 🤖 Roz — Roboticist & Mechatronics Engineer | System integration, joints, servo mechanics | `team/roz-roboticist-and-mechatronics-engineer.md` |
+| 💻 Ada — Embedded Systems & Firmware Developer | ESP32 firmware, servo control, protocols | `team/ada-embedded-systems-and-firmware-developer.md` |
+| 🔊 Sam — Audio & DSP Engineer | Lip-sync pipeline, audio analysis, phonemes | `team/sam-audio-and-dsp-engineer.md` |
+| 🏗️ Felix — Mechanical Design & CAD Engineer | 3D printable parts, joints, FDM constraints | `team/felix-mechanical-design-and-cad-engineer.md` |
+| 📱 Maya — UX & Mobile App Developer | Touch controller PWA, latency, performer UX | `team/maya-ux-and-mobile-app-developer.md` |
 
 ---
 
