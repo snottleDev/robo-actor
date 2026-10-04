@@ -8,8 +8,10 @@ Welcome back! Read this file at the start of every Claude Desktop brainstorming 
 
 **Robo-Actor** is an animatronic Henson-style puppet inspired by Dozer from Fraggle Rock, standing 20–25cm tall. The project combines physical puppet construction, embedded electronics, and custom software into a complete performer system.
 
+**Puppet working name: Harold.** (Not to be confused with Pippa, who is the virtual team's puppeteer & performance consultant — see team table below.)
+
 ### The Three Pillars
-1. **The Puppet** — A Dozer-inspired character with servo-driven movement
+1. **The Puppet** — Harold, a Dozer-inspired character with servo-driven movement
 2. **The Timeline Tool** — Desktop software to author lip-sync and movement sequences from audio
 3. **The Controller App** — A touch-based PWA to perform the puppet live
 
@@ -146,4 +148,4 @@ All session summaries and Claude Code briefs are logged as GitHub Issues.
 
 ---
 
-*Last updated: Session 2 — Stage 1 hardware purchased, FireBeetle ESP32-E confirmed, MG90S selected, expense tracking started*
+*Last updated: 2026-10-04 — puppet given working name "Harold". Previous: Session 2 — Stage 1 hardware purchased, FireBeetle ESP32-E confirmed, MG90S selected, expense tracking started*
